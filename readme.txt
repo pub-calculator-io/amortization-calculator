@@ -2,7 +2,7 @@
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
-Tested up to: 6.2.2
+Tested up to: 6.3.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,14 @@ This amortization calculator will show you how much your monthly payments will b
 == Description ==
 
 This amortization calculator will show you how much your monthly payments will be and the breakdown of your payments. You can also see a graph and a pie chart of your loan’s amortization.
+
+Libraries in use:
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Installation ==
 
