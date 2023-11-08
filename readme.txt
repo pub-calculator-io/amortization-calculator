@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Amortization Calculator](https://www.calculator.io/amortization-calculator/ "Amortization Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_amortization_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Amortization Calculator to the sidebar through the `Appearance -> Widgets -> Amortization Calculator` menu in WordPress.
+* Add the shortcode `[ci_amortization_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_amortization_calculator(); ?>` to your template where you would like the Amortization Calculator to appear.
 
 == Screenshots ==

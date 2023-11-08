@@ -12,9 +12,8 @@ This amortization calculator will show you how much your monthly payments will b
 3. Activate the [Amortization Calculator](https://www.calculator.io/amortization-calculator/ "Amortization Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_amortization_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Amortization Calculator to the sidebar through the `Appearance -> Widgets -> Amortization Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_amortization_calculator(); ?>` to your template where you would like the Amortization Calculator to appear.
+* Add the shortcode `[ci_amortization_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_amortization_calculator(); ?>` to your template where you would like the Amortization Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
