@@ -13,6 +13,8 @@ This amortization calculator will show you how much your monthly payments will b
 
 This amortization calculator will show you how much your monthly payments will be and the breakdown of your payments. You can also see a graph and a pie chart of your loan’s amortization.
 
+[Amortization Calculator Homepage](https://www.calculator.io/amortization-calculator/ "Amortization Calculator Homepage")
+
 __Shortcode__
 
 Use the Amortization Calculator shortcode:
