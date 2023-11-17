@@ -1,6 +1,6 @@
 === Amortization Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: amortization calculator, loan amortization schedule, mortgage payoff calculator, monthly payment calculator, amortization table calculator, loan term calculator, interest amortization calculator, home loan calculator, mortgage amortization tool
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0

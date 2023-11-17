@@ -66,6 +66,7 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 		plugins: {
 			tooltip: {
 				enabled: false,
+				position: 'average'
 			},
 			legend: {
 				display: false,
@@ -85,18 +86,12 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 
 			data.datasets[0].data.forEach((datapoint, index) => {
 				const { x, y } = chart.getDatasetMeta(0).data[index].tooltipPosition();
-
-				let textXPosition = x >= 77 ? 'left' : 'right';
-
-				let xLine = x >= 77 ? x + 15 : x - 15;
-				let yLine = y >= 77 ? y + 15 : y - 15;
-
+				ctx.textAlign = 'center';
 				ctx.font = '14px Inter';
-				ctx.textAlign = textXPosition;
-				ctx.fillStyle = colors[theme].textColor;
+				ctx.fillStyle = '#fff';
 				ctx.textBaseline = 'middle';
-
-				ctx.fillText(`${datapoint}%`, xLine, yLine);
+				let toolTipText = datapoint != '0' ? datapoint + '%' : '';
+				ctx.fillText(toolTipText, x, y);
 			});
 		},
 	};
@@ -125,18 +120,12 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 
 				data.datasets[0].data.forEach((datapoint, index) => {
 					const { x, y } = chart.getDatasetMeta(0).data[index].tooltipPosition();
-
-					let textXPosition = x >= 77 ? 'left' : 'right';
-
-					let xLine = x >= 77 ? x + 15 : x - 15;
-					let yLine = y >= 77 ? y + 15 : y - 15;
-
+					ctx.textAlign = 'center';
 					ctx.font = '14px Inter';
-					ctx.textAlign = textXPosition;
-					ctx.fillStyle = colors[theme].textColor;
+					ctx.fillStyle = '#fff';
 					ctx.textBaseline = 'middle';
-
-					ctx.fillText(`${datapoint}%`, xLine, yLine);
+					let toolTipText = datapoint != '0' ? datapoint + '%' : '';
+					ctx.fillText(toolTipText, x, y);
 				});
 			},
 		};
@@ -243,7 +232,6 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 				pointHoverBorderWidth: 2,
 				pointHoverRadius: 6,
 				pointHoverBorderColor: '#5045E5',
-				stacked: true,
 				borderColor: colors[theme].sky,
 				backgroundColor: yellowGradient,
 				fill: true,
@@ -257,8 +245,6 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 				pointHoverBorderWidth: 2,
 				pointHoverRadius: 6,
 				pointHoverBorderColor: '#5045E5',
-				stack: 'combined',
-				stacked: true,
 				borderColor: colors[theme].yellow,
 				backgroundColor: purpleGradient,
 				fill: true,
@@ -272,8 +258,6 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 				pointHoverBorderWidth: 2,
 				pointHoverRadius: 6,
 				pointHoverBorderColor: '#5045E5',
-				stack: 'combined',
-				stacked: true,
 				borderColor: colors[theme].purple,
 				backgroundColor: purpleGradient,
 				fill: true,
