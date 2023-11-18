@@ -1,4 +1,4 @@
-# Amortization Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Amortization Calculator Widget for WordPress
 
 This amortization calculator will show you how much your monthly payments will be and the breakdown of your payments. You can also see a graph and a pie chart of your loan’s amortization.
 
