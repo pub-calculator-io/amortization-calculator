@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Amortization Calculator by www.calculator.io
+Plugin Name: CI Amortization calculator
 Plugin URI: https://www.calculator.io/amortization-calculator/
 Description: This amortization calculator will show you how much your monthly payments will be and the breakdown of your payments. You can also see a graph and a pie chart of your loan’s amortization.
 Version: 1.0.0

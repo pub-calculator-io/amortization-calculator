@@ -1,4 +1,4 @@
-=== Amortization Calculator by www.calculator.io ===
+=== CI Amortization calculator ===
 Contributors: calculatorio
 Tags: amortization calculator, loan amortization schedule, mortgage payoff calculator, monthly payment calculator, amortization table calculator, loan term calculator, interest amortization calculator, home loan calculator, mortgage amortization tool
 Requires at least: 5.0
