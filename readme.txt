@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Amortization Ca
 == Screenshots ==
 
 1. The Amortization Calculator Input Form.
-2. The Amortization Calculator Calculation Results.
 
 == Installation ==
 

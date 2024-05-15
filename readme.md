@@ -3,7 +3,6 @@
 This amortization calculator will show you how much your monthly payments will be and the breakdown of your payments. You can also see a graph and a pie chart of your loan’s amortization.
 
 ![Amortization Calculator Input Form](/assets/images/screenshot-1.png "Amortization Calculator Input Form")
-![Amortization Calculator Calculation Results](/assets/images/screenshot-2.png "Amortization Calculator Calculation Results")
 
 ## Installation
 
